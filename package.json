@@ -1,0 +1,63 @@
+{
+  "name": "watson-plugin-example",
+  "version": "0.2.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "main": "public",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "yarn build",
+    "lint": "tslint -c tslint.json '{public,private}/**/*.{ts,tsx}'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@phosphor/widgets": "^1.9.0",
+    "immer": "^1.9.3",
+    "jquery": "^3.4.1",
+    "md5": "^2.2.1",
+    "md5-file": "^3.2.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.0.3",
+    "react-redux-form": "^1.16.13",
+    "react-table": "^6.10.0",
+    "redux": "^4.0.1",
+    "redux-actions": "^2.6.5",
+    "redux-observable": "^1.1.0",
+    "rxjs": "^6.0.0",
+    "watson-api": "^0.2.3",
+    "watson-core": "^0.2.5",
+    "watson-material": "^0.2.3",
+    "watson-modules": "^0.2.3",
+    "watson-navigation": "^0.2.2",
+    "watson-plugin-explorer": "^0.2.0",
+    "watson-resize": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.8.15",
+    "@types/react-redux": "^7.0.8",
+    "@types/redux-actions": "^2.6.0",
+    "electron": "^4.2.9",
+    "node-sass": "^4.12.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-intermediate-bundle": "^0.1.1",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-typescript2": "^0.21.0",
+    "tslint": "^5.20.1",
+    "tslint-react": "^4.1.0",
+    "typescript": "^3.4"
+  },
+  "watson": {
+    "name": "Example",
+    "view": "js/example-view.js",
+    "workers": "js/example-workers.js"
+  }
+}
