@@ -41,7 +41,7 @@
     "@types/react": "^16.8.15",
     "@types/react-redux": "^7.0.8",
     "@types/redux-actions": "^2.6.0",
-    "electron": "^4.2.9",
+    "electron": "^7.2.4",
     "node-sass": "^4.12.0",
     "rollup": "^1.10.1",
     "rollup-plugin-commonjs": "^9.3.4",
